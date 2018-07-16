@@ -1,5 +1,5 @@
 try:
-    from amzsear import AmzSear
+    from amzsear import *
     from amzsear.core.consts import DEFAULT_REGION, REGION_CODES
 except ImportError:
     from .amzsear import AmzSear
